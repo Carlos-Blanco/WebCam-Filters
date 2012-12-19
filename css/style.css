@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Denk+One);
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Denk One', sans-serif;
+	color: #fff;
+	background: url(../images/pxpat.png);
+}
+#wraper{
+	background-color: #000;
+	float: left;
+	margin: 2% 2%;
+	width: 50%;
+}
+#output{
+	width: 100%;
+}
+#buttons {
+	float: left;
+	margin-top: 2%;
+	width: 40%;
+}
+#buttons input{
+	width: 40%;
+	margin: 12px 1.5%;
+}
+h1 {
+	color: #109979;
+	margin-top: 10px;
+	text-align: center;
+}
+h4 {
+	color:#ddd;
+	display: inline-block;
+	width: 40%;
+	font-weight: 100;
+	background-color: #109979;
+	border-radius: 2em;
+	padding: 0.5em;
+	text-align: center;
+}
